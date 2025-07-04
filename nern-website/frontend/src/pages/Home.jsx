@@ -61,7 +61,7 @@ const Home = () => {
       {/* Hero Video Section */}
       <div className="hero-video-container">
         <video autoPlay muted loop className="hero-video">
-          <source src="/src/assets/ .mp4" type="video/mp4" />
+          <source src="/src/assets/hero-construction.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="hero-overlay"></div>
@@ -128,79 +128,6 @@ const Home = () => {
         ))}
       </div>
       
-      {/* Awards and Achievements Section */}
-      <div className="awards-section">
-        <h2 className="section-title">Awards And Achievements</h2>
-        <div className="awards-container">
-          <div className="award-item">
-            <div className="award-image"></div>
-            <p>Excellence in Engineering Services</p>
-          </div>
-          <div className="award-item">
-            <div className="award-image"></div>
-            <p>Best Construction Company 2023</p>
-          </div>
-          <div className="award-item">
-            <div className="award-image"></div>
-            <p>Safety First Award</p>
-          </div>
-          <div className="award-item">
-            <div className="award-image"></div>
-            <p>Customer Satisfaction Excellence</p>
-          </div>
-        </div>
-      </div>
-      
-      {/* Original content about Satis-Fact */}
-      <div className="original-content">
-        <h1 className="special-offer">Special Offer For You</h1>
-        
-        <div className="logo-container">
-          <div className="logo-image"></div>
-          <h2 className="company-name">Satis-fact</h2>
-        </div>
-        
-        <h3 className="company-title">Satis-Fact Engineering & Maintains Service</h3>
-        
-        <div className="description-container">
-          <p className="main-description">
-            Any Kind Of Construction Work Or Maintainance work & services<br />
-            your special occation/function or what ever
-          </p>
-          <p className="sub-description">
-            We are already to maintain your House/Hotel/industrials
-          </p>
-        </div>
-        
-        <div className="services-section">
-          <div className="ictad-logo">
-            <div className="ictad-image"></div>
-            <p>The Institute for Construction Training and Development</p>
-          </div>
-          
-          <ul className="services-list">
-            {services.map((service, index) => (
-              <li key={index} className="service-item">
-                <span className="bullet">•</span> {service}
-              </li>
-            ))}
-          </ul>
-        </div>
-        
-        <div className="free-estimate">
-          <p>Free of Charge :- Estimate/B.O.Q</p>
-        </div>
-        
-        <div className="contact-info">
-          <p className="contact-header">CONTACT FOR :- W.A. Abeynayake</p>
-          <p className="phone-numbers">
-            0763 115 305<br />
-            0712 912 196
-          </p>
-          <p className="email">E-mail :- asankaabeynayake@gmail.com</p>
-        </div>
-      </div>
-      
       <div className="cta-section">
         <Link to="/contact" className="cta-button">
           Contact Us Today
@@ -208,7 +135,7 @@ const Home = () => {
         <Link to="/services" className="services-button">
           View All Services
         </Link>
-      </div>
+      </div><br/><br/>
     </div>
   );
 };
